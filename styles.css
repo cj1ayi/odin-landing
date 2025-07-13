@@ -1,0 +1,40 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    justify-content: space-between;
+}
+
+
+.nav-links {
+    display: flex;
+    list-style-type: none;
+    gap: 15px;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar a {
+    text-decoration: none;
+    padding: 8px 12px;
+    color: black;
+    margin: 0 auto;
+}
+
+.logo img {
+    height: 80px;
+    width: auto;
+}
+
+.landing-title {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.main-image img{
+    display: flex;
+    margin: 15px;
+    height: 250px;
+    width: auto;
+}

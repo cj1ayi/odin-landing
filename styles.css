@@ -51,6 +51,14 @@ body {
     margin: 0 auto;
 }
 
+.navbar li {
+    transition: 0.2s ease-in;
+}
+
+.navbar li:hover {
+    transform: scale(1.1);
+}
+
 .logo img {
     height: 80px;
     width: auto;
@@ -153,8 +161,8 @@ body {
     border: 1px solid black;
     width: 100%;
     height: 350px;
-    transition: 0.2s ease-in;
     object-fit: cover;
+    transition: 0.2s ease-in;
 }
 .box img:hover {
     border: 1px dashed black;
